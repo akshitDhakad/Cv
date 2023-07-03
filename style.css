@@ -1,0 +1,98 @@
+  
+    body {
+        background: rgb(238,174,202);
+        background: radial-gradient(circle,       rgba(238,174,202,1) 0%,                   rgba(148,187,233,1) 100%);
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .navbar {
+        background: rgb(238,174,202);
+        background: radial-gradient(circle,       rgba(238,174,202,1) 0%,              rgba(148,187,233,1) 100%);
+        padding: 10px;
+      }
+  
+      .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+  
+      }
+  
+      .navbar li {
+        display: inline;
+      }
+  
+      .navbar li a {
+        display: center;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        transition: background-color 0.3s;
+      }
+  
+      .navbar li a:hover {
+        background-color: #ddd;
+        
+      }
+  
+      .portfolio {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+  
+      .portfolio:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      }
+  
+      .portfolio h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+  
+      .portfolio p {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+  
+      .section-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+  
+      .section-content {
+        margin-bottom: 20px;
+      }
+  
+      .social-links {
+        margin-top: 20px;
+      }
+  
+      .social-links a {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 20px;
+        color: #000;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+  
+      .social-links a:hover {
+        color: #007bff;
+      }
+  
+      .footer {
+        background: rgb(238,174,202);
+        background: radial-gradient(circle,      rgba(238,174,202,1) 0%,        rgba(148,187,233,1) 100%);
+        padding: 20px;
+        text-align: center;
+      }
+     
