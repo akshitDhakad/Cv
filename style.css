@@ -46,6 +46,10 @@
         padding: 40px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         transition: transform 0.3s, box-shadow 0.3s;
+        height: min-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
       }
   
       .portfolio:hover {
@@ -53,27 +57,38 @@
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
       }
   
-      .portfolio h1 {
-        font-size: 28px;
+      .heading h1 {
+        text-align: center;
         margin-bottom: 10px;
+        
       }
   
-      .portfolio p {
+      .heading p {
         font-size: 16px;
         margin-bottom: 20px;
+        text-align: center;
+        
       }
   
-      .section-title {
+      .title {
         font-size: 24px;
         margin-bottom: 10px;
+        color: grey;
       }
   
-      .section-content {
-        margin-bottom: 20px;
+     
+      .heading{
+        grid-column: span 2;
+        
       }
-  
+
+
+
+
       .social-links {
         margin-top: 20px;
+        grid-column: span 2;
+        justify-self: center;
       }
   
       .social-links a {
@@ -83,12 +98,17 @@
         color: #000;
         text-decoration: none;
         transition: color 0.3s;
+        
+        
       }
+      
   
       .social-links a:hover {
         color: #007bff;
       }
   
+
+      
       .footer {
         background: rgb(238,174,202);
         background: radial-gradient(circle,      rgba(238,174,202,1) 0%,        rgba(148,187,233,1) 100%);
@@ -96,3 +116,16 @@
         text-align: center;
       }
      
+      p{
+        margin: 0px !important;
+        color: rgb(75, 73, 73);
+      }
+
+      .portfolio>div{
+        margin-top: 10px;
+        
+        border-bottom: 1px solid lightgray;
+      }
+
+
+
