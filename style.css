@@ -127,5 +127,19 @@
         border-bottom: 1px solid lightgray;
       }
 
+      .Links a{
+        text-decoration: none !important;
+        margin-left: 10px;
+      }
 
 
+      .b{
+        font-weight: 700;
+      }
+
+      .name{
+        color:#007bff
+      }
+      .name:hover{
+        color:#4a719a
+      }
