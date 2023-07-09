@@ -1,44 +1,13 @@
   
     body {
-        background: rgb(238,174,202);
-        background: radial-gradient(circle,       rgba(238,174,202,1) 0%,                   rgba(148,187,233,1) 100%);
+        background: #AAC8A7 !important;
+      
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
       }
   
-      .navbar {
-        background: rgb(238,174,202);
-        background: radial-gradient(circle,       rgba(238,174,202,1) 0%,              rgba(148,187,233,1) 100%);
-        padding: 10px;
-      }
-  
-      .navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 10px;
-        text-align: center;
-  
-      }
-  
-      .navbar li {
-        display: inline;
-      }
-  
-      .navbar li a {
-        display: center;
-        text-align: center;
-        padding: 10px 20px;
-        text-decoration: none;
-        color: #000;
-        font-weight: bold;
-        transition: background-color 0.3s;
-      }
-  
-      .navbar li a:hover {
-        background-color: #ddd;
-        
-      }
+
   
       .portfolio {
         max-width: 800px;
@@ -50,6 +19,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
+        background-color: #B5C99A;
       }
   
       .portfolio:hover {
@@ -110,8 +80,8 @@
 
       
       .footer {
-        background: rgb(238,174,202);
-        background: radial-gradient(circle,      rgba(238,174,202,1) 0%,        rgba(148,187,233,1) 100%);
+        
+      
         padding: 20px;
         text-align: center;
       }
@@ -138,8 +108,8 @@
       }
 
       .name{
-        color:#007bff
+        color:#55708d
       }
       .name:hover{
-        color:#4a719a
+        color:#123c6a
       }
